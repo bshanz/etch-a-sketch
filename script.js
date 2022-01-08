@@ -8,7 +8,6 @@ const rows = document.querySelector(".rows");
 const restart = document.querySelector(".restart");
 const reload = document.querySelector(".reload");
 
-
 //get user input for grid size
 function gridSize() {
   let num = window.prompt(
@@ -84,6 +83,5 @@ restart.addEventListener("click", function (e) {
 });
 
 reload.addEventListener("click", function (e) {
-    location.reload()
-  });
-  
+  location.reload();
+});
